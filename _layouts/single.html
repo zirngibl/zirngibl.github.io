@@ -50,9 +50,7 @@ layout: default
         <p> <b>Abstract:</b><br> {{ page.abstract }} </p>
         {% endif %}
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
