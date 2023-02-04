@@ -11,30 +11,33 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Informatics, Technical University of Munich, 2015
+* M.S. in Informatics, Technical University of Munich, 2019
+* Semester abroad at University of Illinois Urbana-Champaign, 2017
+* Ph.D in Informatics, Technical University of Munich, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 01/2013–03/2013: Working student at Osram OS
+* 04/2016–06/2016: Internship at Rohde & Schwarz
+* 07/2016–10/2016: Working student at Rohde & Schwarz
+* 07/2019– : Research associate at Technical University of Munich
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages:
+    * German, first language
+    * English, C1
+    * French
+* Operating Systems:
+    * GNU/Linux
+    * Windows
+* Programming Languages
+    * Python
+    * Go
+    * Basics in C and Haskell
+* Other
+    * Latex
 
 Publications
 ======
@@ -54,6 +57,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

@@ -15,3 +15,14 @@ I focus on large scale analysis and measurements targeting the Internet. My core
 The goal is to reach a better understanding of the Internet and understand the impact of often disregarded influences such as Off-Net deployments.
 
 I am part of the [Global Internet Observatory (GINO)](https://net.in.tum.de/projects/gino/), a interest group at our chair focusing on Internet measurements.
+
+Selected Publications
+======
+[Full list of publications](/publications)
+
+  <ul>{% for post in site.publications %}
+    {% if post.important == "true" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
