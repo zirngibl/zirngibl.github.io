@@ -2,9 +2,9 @@
 title: "HEAP BGP Observatory"
 collection: talks
 type: "Workshop Talk"
-permalink: /talks/2020.02.26-workshop-kismet
+permalink: /talks/2020-02-26-workshop-kismet
 venue: "Workshop on Active Internet Measurements: Knowledge of Internet Structure: Measurement, Epistemology, and Technology (AIMS-KISMET)"
-date: 2020.02.26
+date: 2020-02-26
 location: "San Diego, CA"
 ---
 
