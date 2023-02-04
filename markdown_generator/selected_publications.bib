@@ -1,0 +1,141 @@
+%*******************************************
+% ABBREVIATIONS FOR CONFERENCE PROCEEDINGS *
+%*******************************************
+
+@string{VTC = "Proc. IEEE Vehicular Technology Conference (VTC)"}
+@string{CDC = "Proc. Control and Decision Conference (CDC)"}
+@string{CCS = "Proc. ACM SIGSAC Conference on Computer and Communications Security (CCS)"}
+@string{PIMRC = "Proc. PIMRC"}
+@string{DATE = "Proc. DATE"}
+@string{INFOCOM = "Proc. IEEE Int. Conference on Computer Communications (INFOCOM)"}
+@string{IPSN = "Proc. IEEE/ACM IPSN"}
+@string{ICNP = "Proc. IEEE ICNP"}
+@string{ICN = "Proc. ACM ICN"}
+@string{CONEXT = "Proc. ACM Int. Conference on emerging Networking EXperiments and Technologies (CoNEXT)"}
+@string{MOBICOM = "Proc. ACM Int. Conference on Mobile Computing and Networking (MobiCom)"}
+@string{WINTECH = "Proc. ACM WiNTECH"}
+@string{SIGMETRICS = "Proc. ACM SIGMETRICS"}
+@string{SIGCOMM = "Proc. ACM SIGCOMM"}
+@string{SENSYS = "Proc. ACM SenSys"}
+@string{MOBIHOC = "Proc. ACM MobiHoc"}
+@string{MOBISYS = "Proc. ACM Int. Conference on Mobile Systems, Applications, and Services (MobiSys)"}
+@string{DYSPAN = "Proc. IEEE DySPAN"}
+@string{HOTNETS = "Proc. ACM HotNets"}
+@string{HOTSDN = "Proc. ACM HotSDN"}
+@string{EUROCRYPT = "Proc. Annual International Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT)"}
+@string{EUROSP = "Proc. IEEE European Symposium on Security and Privacy (EuroS\&P)"}
+
+@string{ICC = "Proc. IEEE ICC"}
+@string{PRIB = "Proc. PRIB"}
+@string{WIOPT = "Proc. WiOPT"}
+@string{SECON = "Proc. IEEE SECON"}
+@string{OSDI = "Proc. OSDI"}
+@string{WWW = "Proc. of the International Web Conference (WWW)"}
+@string{NSDI = "Proc. USENIX Symposium on Networked Systems Design and Implementation (NSDI)"}
+@string{USENIX = "Proc. USENIX"}
+@string{USENIXSEC = "Proc. USENIX Security Symposium"}
+@string{GLOBECOM = "Proc. GLOBECOM"}
+@string{MILCOM = "Proc. MILCOM"}
+@string{ITC = "Proc. Int. Teletraffic Congress (ITC)"}
+@string{MOMUC = "Proc. Int. Workshop on Mobile Multimedia Communications (MoMuC)"}
+@string{WCNC = "Proc. IEEE Wireless Communications and Networking Conference (WCNC)"}
+@string{CISS="Proc. IEEE Conference on Information Sciences and Systems (CISS)"}
+@string{ALLERTON="Proc. Annual Allerton Conference On Communication, Control and Computing"}
+@string{IWQOS="Proc. IEEE Int. Workshop on Quality of Service (IWQoS)"}
+@string{ISCC="Proc. Int. Symposium on Computer Communications (ISCC)"}
+@string{PERCOM="Proc. IEEE Conference on Pervasive Computing and Communications (PerCom)"}
+@string{OAKLAND="Proc. IEEE Symposium on Security and Privacy (S\&P)"}
+@string{IMC="Proc. ACM Int. Measurement Conference (IMC)"}
+@string{WICON="Proc. Int. Conference on Wireless Internet (WICON)"}
+@string{ITA="Proc. Information Theory and Applications Workshop (ITA)"}
+@string{ANCS="Proc. IEEE/ACM ANCS"}
+@string{ICFP="Proc. ACM ICFP"}
+@string{SANE="Proc. SANE"}
+@string{GI="Proc. IEEE Global Internet Symposium (GI)"}
+@string{NDSS="Proc. Network and Distributed System Security Symposium (NDSS)"}
+@string{PAM="Proc. Passive and Active Measurement (PAM)"}
+@string{DSN="Proc. IEEE/IFIP Int. Conference on Dependable Systems and Networks (DSN)"}
+@string{TMA="Proc. Network Traffic Measurement and Analysis Conference (TMA)"}
+
+%***********************************
+% ABBREVIATIONS FOR JOURNAL PAPERS *
+%***********************************
+
+@string{JSAC="IEEE Journal on Selected Areas in Communications"}
+@string{BALTZER="ACM Baltzer Journal of Wireless Networks"}
+@string{TIT = "IEEE Transactions on Information Theory"}
+@string{TON="IEEE/ACM Transactions on Networking"}
+@string{TCOMM="IEEE Transactions on Communications"}
+@string{TCOMP="IEEE Transactions on Computers"}
+@string{SIAMCOMP="SIAM Journal of Computing"}
+@string{TAC="IEEE Transactions on Automatic Control"}
+@string{TMC="IEEE Transactions on Mobile Computing"}
+@string{COMNET="Computer Networks"}
+@string{TWC="IEEE Transactions on Wireless Communications"}
+@string{COMLET="IEEE Communications Letters"}
+@string{CCR="ACM SIGCOMM Computer Communication Review"}
+@string{INET="IEEE Network"}
+
+@inproceedings{zirngibl2021over9000,
+    title        = {{It`s over 9000: Analyzing early QUIC Deployments with the Standardization on the Horizon}},
+    author       = {Zirngibl, Johannes and Buschmann, Philippe and Sattler, Patrick and Jaeger, Benedikt and Aulbach, Juliane and Carle, Georg},
+    url = {https://doi.org/10.1145/3487552.3487826},
+    year         = 2021,
+    month        = 11,
+    day          = 2,
+    booktitle    = IMC,
+    location     = {Virtual Event, USA},
+    homepage = {https://quicimc.github.io/},
+    data = {https://mediatum.ub.tum.de/1624408},
+    abstract = {After nearly five years and 34 draft versions, standardization of the new connection oriented transport protocol QUIC was finalized in May 2021. Designed as a fundamental network protocol with increased complexity due to the combination of functionality from multiple network stack layers, it has the potential to drastically influence the Internet ecosystem. Nevertheless, even in its early stages, the protocol attracted a variety of parties including large providers. Our study shows, that more than 2.3 M IPv4 and 300k IPv6 addresses support QUIC hosting more than 30 M domains.Using our newly implemented stateful QUIC scanner (QScanner) we are able to successfully scan 26 M targets. We show that TLS as an integral part is similarly configured between QUIC and TLS over TCP stacks for the same target. In comparison, we identify 45 widely varying transport parameter configurations, e.g., with differences in the order of magnitudes for performance relevant parameters. Combining these configurations with HTTP Server header values and associated domains reveals two large edge deployments from Facebook and Google. Thus, while found QUIC deployments are located in 4667 autonomous systems, numerous of these are again operated by large providers.In our experience, IETF QUIC already sees an advanced deployment status mainly driven by large providers. We argue that the current deployment state and diversity of existing implementations and seen configurations solidifies the importance of QUIC as a future research topic. In this work, we provide and evaluate a versatile tool set, to identify QUIC capable hosts and their properties.Besides the stateful QScanner we present and analyze a newly implemented IPv4 and IPv6 ZMap module. We compare it to additional detection methods based on HTTP Alternative Service Header values from HTTP handshakes and DNS scans of the newly drafted HTTPS DNS resource record. While each method reveals unique deployments the latter would allow lightweight scans to detect QUIC capable targets but is drastically biased towards Cloudflare.},
+}
+
+@inproceedings{zirngibl2022prevalenceofparking,
+	author = {Zirngibl, Johannes and Deusch, Steffen and Sattler, Patrick and Aulbach, Juliane and Carle, Georg and Jonker, Mattijs},
+	title = {{Domain Parking: Largely Present, Rarely Considered!}},
+	booktitle = TMA,
+	year = {2022},
+    month = {June},
+    day = {27},
+    url = {https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper26.pdf},
+    abstract = {Domain parking typically involves leveraging advertisements to generate revenue on otherwise inactive domain names. Their content is rarely
+of real value to users and tends to be highly similar across parked domains. They have commonalities beyond content alone: parked domains can share hosting
+and DNS infrastructure. Parking rarely receives special treatment in existing studies (e.g., content analyses or infrastructure concentration studies). 
+While the presence and possible bias introduced by parked pages is sometimes acknowledged in studies, the studies still treat parked domains as any other,
+either because differentiation is infeasible, or because doing so is considered out-of-scope. We argue that the impact of parked domains on analyses
+regarding the current state and future development of the Internet should not be overlooked. In this paper, we motivate this argument through quantification,
+and take steps towards helping other researchers identify parked domains. We systematically collect a list of 82 parking services and develop DNS-based 
+indicators to help identify parked domains. We next quantify the presence of parked domains, using large-scale DNS data containing hundreds of millions of
+registered domain names, representative for a significant part of the global DNS namespace. Overall, we pinpoint 60 M parked domains, which is a significant
+percentage of all names under consideration (23 %) and identify up to 4 % of domains from top lists to be parked. These findings demonstrate that the effect
+of parked pages is potentially pronounced. We also break down into the various parking services and DNS zones. This helps us demonstrate and further discuss
+the effect that domain parking can have on research and Internet consolidation.}
+}
+
+@inproceedings{sattler2022privaterelay,
+	title = {{Towards a Tectonic Traffic Shift? Investigating Apple's New Relay Network}},
+	author = {Sattler, Patrick and Aulbach, Juliane and Zirngibl, Johannes and Carle, Georg},
+	booktitle = IMC,
+	year = {2022},
+	location = {Nice, France},
+    month = {October},
+    day = {25},
+    homepage = {https://relay-networks.github.io/},
+    data = {https://mediatum.ub.tum.de/1687050},
+    url = {https://doi.org/10.1145/3517745.3561426},
+    abstract = {Apple recently published its first Beta of the iCloud Private Relay, a privacy protection service with promises resembling the ones of VPNs. The architecture consists of two layers (ingress and egress), operated by disjoint providers. The service is directly integrated into Apple's operating systems, providing a low entry-level barrier for a large user base. It seems to be set up for significant adoption with its relatively moderate entry-level price.This paper analyzes the iCloud Private Relay from a network perspective, its effect on the Internet, and future measurement-based research. We perform EDNS0 Client Subnet DNS queries to collect ingress relay addresses and find 1586 IPv4 addresses. Supplementary RIPE Atlas DNS measurements reveal 1575 IPv6 addresses. Knowing these addresses helps to detect clients communicating through the relay network passively. According to our scans, ingress addresses grew by 20% from January through April. Moreover, according to our RIPE Atlas DNS measurements, 5.3% of all probes use a resolver that blocks access to iCloud Private Relay.The analysis of our scans through the relay network verifies Apple's claim of rotating egress addresses. Nevertheless, it reveals that ingress and egress relays can be located in the same autonomous system, thus sharing similar routes, potentially allowing traffic correlation.},
+}
+
+@inproceedings{zirngibl2022rustyclusters,
+	title = {{Rusty Clusters? Dusting an IPv6 Research Foundation}},
+	author = {Zirngibl, Johannes and Steger, Lion and Sattler, Patrick and Gasser, Oliver and Carle, Georg},
+	booktitle = IMC,
+	year = {2022},
+	location = {Nice, France},
+    month = {October},
+    day = {25},
+    homepage = {https://ipv6hitlist.github.io/},
+    data = {https://mediatum.ub.tum.de/1686542},
+    url = {https://doi.org/10.1145/3517745.3561440},
+    abstract = {The long-running IPv6 Hitlist service is an important foundation for IPv6 measurement studies. It helps to overcome infeasible, complete address space scans by collecting valuable, unbiased IPv6 address candidates and regularly testing their responsiveness. However, the Internet itself is a quickly changing ecosystem that can affect long-running services, potentially inducing biases and obscurities into ongoing data collection means. Frequent analyses but also updates are necessary to enable a valuable service to the community.In this paper, we show that the existing hitlist is highly impacted by the Great Firewall of China, and we offer a cleaned view on the development of responsive addresses. While the accumulated input shows an increasing bias towards some networks, the cleaned set of responsive addresses is well distributed and shows a steady increase.Although it is a best practice to remove aliased prefixes from IPv6 hitlists, we show that this also removes major content delivery networks. More than 98% of all IPv6 addresses announced by Fastly were labeled as aliased and Cloudflare prefixes hosting more than 10 M domains were excluded. Depending on the hitlist usage, e.g., higher layer protocol scans, inclusion of addresses from these providers can be valuable.Lastly, we evaluate different new address candidate sources, including target generation algorithms to improve the coverage of the current IPv6 Hitlist. We show that a combination of different methodologies is able to identify 5.6 M new, responsive addresses. This accounts for an increase by 174% and combined with the current IPv6 Hitlist, we identify 8.8 M responsive addresses.},
+}

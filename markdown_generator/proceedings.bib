@@ -83,18 +83,10 @@
     year="2016",
     month=3,
     day=24,
+    data=  {https://mediatum.ub.tum.de/1445929},
+    homepage = {http://net.in.tum.de/pub/mobmes/},
+    url = {https://link.springer.com/chapter/10.1007/978-3-319-30505-9_15},
     abstract="Mobile messaging services have gained a large share in global telecommunications. Unlike conventional services like phone calls, text messages or email, they do not feature a standardized environment enabling a federated and potentially local service architecture. We present an extensive and large-scale analysis of communication patterns for four popular mobile messaging services between 28 countries and analyze the locality of communication and the resulting impact on user privacy. We show that server architectures for mobile messaging services are highly centralized in single countries. This forces messages to drastically deviate from a direct communication path, enabling hosting and transfer countries to potentially intercept and censor traffic. To conduct this work, we developed a measurement framework to analyze traffic of such mobile messaging services. It allows to carry out automated experiments with mobile messaging applications, is transparent to those applications and does not require any modifications to the applications.",
-}
-
-
-@inproceedings{zirngibl2021over9000,
-    title        = {{It's over 9000: Analyzing early QUIC Deployments with the Standardization on the Horizon}},
-    author       = {Zirngibl, Johannes and Buschmann, Philippe and Sattler, Patrick and Jaeger, Benedikt and Aulbach, Juliane and Carle, Georg},
-    year         = 2021,
-    month        = 11,
-    day          = 2,
-    booktitle    = IMC,
-    location     = {Virtual Event, USA}
 }
 
 @inproceedings{sosnowski2022tlsfingerprinting,
@@ -103,16 +95,11 @@
 	booktitle = TMA,
 	year = {2022},
     month = {June},
-    day={27}
-}
-
-@inproceedings{zirngibl2022prevalenceofparking,
-	author = {Zirngibl, Johannes and Deusch, Steffen and Sattler, Patrick and Aulbach, Juliane and Carle, Georg and Jonker, Mattijs},
-	title = {{Domain Parking: Largely Present, Rarely Considered!}},
-	booktitle = TMA,
-	year = {2022},
-    month = {June},
-    day = {27}
+    day={27},
+    abstract = {Active measurements can be used to collect server characteristics on a large scale. This kind of metadata can help discovering hidden relations and commonalities among server deployments offering new possibilities to cluster and classify them. As an example, identifying a previously-unknown cybercriminal infrastructures can be a valuable source for cyber-threat intelligence. We propose herein an active measurement-based methodology for acquiring Transport Layer Security (TLS) metadata from servers and leverage it for their fingerprinting. Our fingerprints capture the characteristic behavior of the TLS stack primarily caused by the implementation, configuration, and hardware support of the underlying server. Using an empirical optimization strategy that maximizes information gain from every handshake to minimize measurement costs, we generated 10 general-purpose Client Hellos used as scanning probes to create a large database of TLS configurations used for classifying servers. We fingerprinted 28 million servers from the Alexa and Majestic toplists and two Command and Control (C2) blocklists over a period of 30 weeks with weekly snapshots as foundation for two long-term case studies: classification of Content Delivery Network and C2 servers. The proposed methodology shows a precision of more than 99 % and enables a stable identification of new servers over time. This study describes a new opportunity for active measurements to provide valuable insights into the Internet that can be used in security-relevant use cases.},
+    homepage = {https://active-tls-fingerprinting.github.io/},
+    data = {https://doi.org/10.14459/2022mp1658435},
+    url = {https://active-tls-fingerprinting.github.io/},
 }
 
 @inproceedings{franzen2022lookingfohoney,
@@ -121,27 +108,11 @@
 	booktitle = {International Workshop on Traffic Measurements for Cybersecurity 2022},
 	year = {2022},
     month = {June},
-    day = {6}
-}
-
-@inproceedings{sattler2022privaterelay,
-	title = {{Towards a Tectonic Traffic Shift? Investigating Apple's New Relay Network}},
-	author = {Sattler, Patrick and Aulbach, Juliane and Zirngibl, Johannes and Carle, Georg},
-	booktitle = IMC,
-	year = {2022},
-	location = {Nice, France},
-    month = {October},
-    day = {25},
-}
-
-@inproceedings{zirngibl2022rustyclusters,
-	title = {{Rusty Clusters? Dusting an IPv6 Research Foundation}},
-	author = {Zirngibl, Johannes and Steger, Lion and Sattler, Patrick and Gasser, Oliver and Carle, Georg},
-	booktitle = IMC,
-	year = {2022},
-	location = {Nice, France},
-    month = {October},
-    day = {25}
+    day = {6},
+    url = {https://doi.org/10.1109/EuroSPW55150.2022.00033},
+    abstract= {Honeypots are a widely used technique to observe the spread of malware and the emergence of new exploits. Attackers try to avoid connecting to honeypots as they reveal the attacker's methods, tools, and exploits. While different honeypot implementations have been fingerprinted in the past, we see a lack of studies covering Windows-related protocols such as Remote Desktop Protocol (RDP) and Server Message Block (SMB) honeypots. However, these protocols have seen at least two major security vulnerabilities in the past 5 years and are commonly exploited. We adapted existing fingerprinting algorithms to allow an accurate identification of RDP and SMB honeypots checking how implementations behave in error conditions. We present a new improvement, namely the inclusion of system TLS stack features previously not used for honeypot detection. We are the first to perform an internet-wide scan searching for RDP and SMB honeypots. We are able to effectively uncover the
+            presence of two common open-source honeypots for RDP and SMB each. We identified 84 instances of Heralding (RDP), 1123 instances of RDPY (RDP), 60 instances of Impacket (SMB), and 1461 instances of Dionaea (SMB) during our scans. Furthermore, we found several hosts, which do not use Microsoft's SChannel TLS stack, but advertise themselves as Windows machines. This indicates the presence of a Man-in-the-Middle (MitM) box and could be a sign of a honeypot. Eventually, we analyzed how
+            attackers interact with detectable honeypots. We deployed instances of RDP honeypots ourselves and found that credential guessing attackers seem to avoid them. This proves that RDP and SMB honeypots are finger-printable and that even MitM-box-based high-interaction honeypots leave detectable traces.},
 }
 
 @misc{muecke2022waitingforquic,
@@ -151,6 +122,13 @@
 	publisher = {arXiv},
 	year = {2022},
     month = {September},
-    day = {2}
+    day = {2},
+    abstract = {In this paper, we study the potentials of passive measurements to
+gain advanced knowledge about QUIC deployments. By analyzing one month backscatter traffic of the /9 CAIDA network telescope, we are able to make the following observations. First, we can
+identify different off-net deployments of hypergiants, using packet
+features such as QUIC source connection IDs (SCID), packet coalescence, and packet lengths. Second, Facebook and Google configure
+significantly different retransmission timeouts and maximum number of retransmissions. Third, SCIDs allow further insights into load
+balancer deployments such as number of servers per load balancer.
+We bolster our results by active measurements.},
 }
 

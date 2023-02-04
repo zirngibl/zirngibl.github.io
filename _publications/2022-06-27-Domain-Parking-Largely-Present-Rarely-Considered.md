@@ -2,9 +2,12 @@
 title: "Domain Parking: Largely Present, Rarely Considered!"
 collection: publications
 permalink: /publication/2022-06-27-Domain-Parking-Largely-Present-Rarely-Considered
-date: 2022-06-27
 important: "true"
+date: 2022-06-27
 venue: 'Proc. Network Traffic Measurement and Analysis Conference (TMA)'
-citation: ' Johannes Zirngibl,  Steffen Deusch,  Patrick Sattler,  Juliane Aulbach,  Georg Carle,  Mattijs Jonker, &quot;Domain Parking: Largely Present, Rarely Considered!.&quot; Proc. Network Traffic Measurement and Analysis Conference (TMA), 2022.'
+paperurl: 'https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper26.pdf'
+citation: 'Johannes Zirngibl, Steffen Deusch, Patrick Sattler, Juliane Aulbach, Georg Carle, Mattijs Jonker&quot;Domain Parking: Largely Present, Rarely Considered!.&quot; Proc. Network Traffic Measurement and Analysis Conference (TMA), 2022.'
+authors: 'Johannes Zirngibl, Steffen Deusch, Patrick Sattler, Juliane Aulbach, Georg Carle, Mattijs Jonker'
+abstract: "Domain parking typically involves leveraging advertisements to generate revenue on otherwise inactive domain names. Their content is rarely of real value to users and tends to be highly similar across parked domains. They have commonalities beyond content alone: parked domains can share hosting and DNS infrastructure. Parking rarely receives special treatment in existing studies (e.g., content analyses or infrastructure concentration studies). While the presence and possible bias introduced by parked pages is sometimes acknowledged in studies, the studies still treat parked domains as any other, either because differentiation is infeasible, or because doing so is considered out-of-scope. We argue that the impact of parked domains on analyses regarding the current state and future development of the Internet should not be overlooked. In this paper, we motivate this argument through quantification, and take steps towards helping other researchers identify parked domains. We systematically collect a list of 82 parking services and develop DNS-based indicators to help identify parked domains. We next quantify the presence of parked domains, using large-scale DNS data containing hundreds of millions of registered domain names, representative for a significant part of the global DNS namespace. Overall, we pinpoint 60 M parked domains, which is a significant percentage of all names under consideration (23 %) and identify up to 4 % of domains from top lists to be parked. These findings demonstrate that the effect of parked pages is potentially pronounced. We also break down into the various parking services and DNS zones. This helps us demonstrate and further discuss the effect that domain parking can have on research and Internet consolidation."
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Domain+Parking:+Largely+Present,+Rarely+Considered!){:target="_blank"} for full citation
+[Google Scholar](https://scholar.google.com/scholar?q=Domain+Parking:+Largely+Present,+Rarely+Considered!){: .btn--research} [Link](https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper26.pdf){: .btn--research}
