@@ -8,13 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I am a research associate and PhD candidate at the [Chair of Network Architecures and Services](https://net.in.tum.de/) at the [Technical University of Munich](https://www.tum.de/en/)
+As a research associate and PhD candidate at the [Chair of Network Architecures and Services](https://net.in.tum.de/) at the [Technical University of Munich](https://www.tum.de/en/), I focus on large scale analysis and measurements targeting the Internet. My core areas are the analysis of network deployments and their peculiarities. My work relies on multiple protocols spanning networking layers, such as IPv6, DNS, TLS, QUIC.
 
-I focus on large scale analysis and measurements targeting the Internet. My core areas are the analysis of network deployments and their peculiarities. My work relies on multiple protocols spanning networking layers, such as IPv6, DNS, TLS, QUIC.
+The goal is to reach a better understanding of the Internet and the impact of often disregarded influences such as Off-Net deployments.
 
-The goal is to reach a better understanding of the Internet and understand the impact of often disregarded influences such as Off-Net deployments.
+I am co-leading the [Global Internet Observatory (GINO)](https://net.in.tum.de/projects/gino/), an interest group at our chair focusing on Internet measurements. Over the years, we acquired vast knowledge in the area of large scale network measurements. This helps us to understand the current network state and its development. We seek to be harmless and conduct all measurements in an ethical manner.
 
-I am part of the [Global Internet Observatory (GINO)](https://net.in.tum.de/projects/gino/), a interest group at our chair focusing on Internet measurements.
+Recent News
+=====
+[All news](/news)
+
+<ul>
+{% for post in site.posts limit:5%}
+  {% include archive-single-news.html %}
+{% endfor %}
+</ul>
 
 Selected Publications
 ======
