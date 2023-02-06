@@ -67,7 +67,7 @@
 
     &:hover {
       color: $link-color;
-      background-color: $primary-color;
+      background-color: transparent !important;
     }
   }
 
