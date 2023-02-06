@@ -19,7 +19,7 @@ Recent News
 [All news](/news)
 
 <ul>
-{% for post in site.posts limit:5%}
+{% for post in site.news reversed limit:5%}
   {% include archive-single-news.html %}
 {% endfor %}
 </ul>

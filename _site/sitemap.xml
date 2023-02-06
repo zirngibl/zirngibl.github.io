@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://zirngibl.github.io/apnic-private-relay/</loc>
+<loc>https://zirngibl.github.io/news/2023-01-25-apnic-private-relay/</loc>
 <lastmod>2023-01-25T00:00:00-08:00</lastmod>
 </url>
 <url>
-<loc>https://zirngibl.github.io/pam-2023/</loc>
+<loc>https://zirngibl.github.io/news/2023-02-01-pam-2023/</loc>
 <lastmod>2023-02-01T00:00:00-08:00</lastmod>
 </url>
 <url>
@@ -65,9 +65,6 @@
 </url>
 <url>
 <loc>https://zirngibl.github.io/publications/</loc>
-</url>
-<url>
-<loc>https://zirngibl.github.io/sitemap/</loc>
 </url>
 <url>
 <loc>https://zirngibl.github.io/talks/</loc>
