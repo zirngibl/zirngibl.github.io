@@ -104,6 +104,20 @@
     url = {https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper35.pdf},
 }
 
+@inproceedings{sosnowski2023dissectls,
+  author = {Sosnowski, Markus and Zirngibl, Johannes and Sattler, Patrick and Carle, Georg},
+  title = {{DissecTLS: A Scalable Active Scanner forÂ TLS Server Configurations, Capabilities, andÂ TLS Fingerprinting}},
+  booktitle = PAM,
+  year = {2023},
+  month = {March},
+  day={10},
+  doi = {10.1007/978-3-031-28486-1_6},
+  abstract = {Collecting metadata from Transport Layer Security (TLS) servers on a large scale allows to draw conclusions about their capabilities and configuration. This provides not only insights into the Internet but it enables use cases like detecting malicious Command and Control (C {\&}C) servers. However, active scanners can only observe and interpret the behavior of TLS servers, the underlying configuration and implementation causing the behavior remains hidden. Existing approaches struggle between resource intensive scans that can reconstruct this data and light-weight fingerprinting approaches that aim to differentiate servers without making any assumptions about their inner working. With this work we propose DissecTLS, an active TLS scanner that is both light-weight enough to be used for Internet measurements and able to reconstruct the configuration and capabilities of the TLS stack. This was achieved by modeling the parameters of the TLS stack and derive an active scan that dynamically creates scanning probes based on the model and the previous responses from the server. We provide a comparison of five active TLS scanning and fingerprinting approaches in a local testbed and on toplist targets. We conducted a measurement study over nine weeks to fingerprint C {\&}C servers and analyzed popular and deprecated TLS parameter usage. Similar to related work, the fingerprinting achieved a maximum precision of 99Â {\%} for a conservative detection threshold of 100Â {\%}; and at the same time, we improved the recall by a factor of 2.8.},
+  isbn = {978-3-031-28486-1},
+  homepage = {https://dissectls.github.io/},
+  data = {https://doi.org/10.14459/2023mp1695491},
+}
+
 @inproceedings{franzen2022lookingfohoney,
 	author = {Franzen, Fabian and Steger, Lion and Zirngibl, Johannes and Sattler, Patrick},
 	title = {{Looking for Honey Once Again: Detecting RDP and SMB Honeypots on the Internet}},
