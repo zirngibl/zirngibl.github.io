@@ -143,3 +143,22 @@ the effect that domain parking can have on research and Internet consolidation.}
     url = {https://doi.org/10.1145/3517745.3561440},
     abstract = {The long-running IPv6 Hitlist service is an important foundation for IPv6 measurement studies. It helps to overcome infeasible, complete address space scans by collecting valuable, unbiased IPv6 address candidates and regularly testing their responsiveness. However, the Internet itself is a quickly changing ecosystem that can affect long-running services, potentially inducing biases and obscurities into ongoing data collection means. Frequent analyses but also updates are necessary to enable a valuable service to the community.In this paper, we show that the existing hitlist is highly impacted by the Great Firewall of China, and we offer a cleaned view on the development of responsive addresses. While the accumulated input shows an increasing bias towards some networks, the cleaned set of responsive addresses is well distributed and shows a steady increase.Although it is a best practice to remove aliased prefixes from IPv6 hitlists, we show that this also removes major content delivery networks. More than 98% of all IPv6 addresses announced by Fastly were labeled as aliased and Cloudflare prefixes hosting more than 10 M domains were excluded. Depending on the hitlist usage, e.g., higher layer protocol scans, inclusion of addresses from these providers can be valuable.Lastly, we evaluate different new address candidate sources, including target generation algorithms to improve the coverage of the current IPv6 Hitlist. We show that a combination of different methodologies is able to identify 5.6 M new, responsive addresses. This accounts for an increase by 174% and combined with the current IPv6 Hitlist, we identify 8.8 M responsive addresses.},
 }
+
+@inproceedings{jaeger2023QUIC,
+  author    = {Benedikt Jaeger and Johannes Zirngibl and Marcel Kempf and Kevin Ploch and Georg Carle},
+  title     = {{QUIC on the Highway: Evaluating Performance on High-Rate Links}},
+  booktitle = {International Federation for Information Processing (IFIP) Networking 2023 Conference (IFIP Networking 2023)},
+  location   = {Barcelona, Spain},
+  month     = {June},
+  year      = {2023},
+  day       = {13},
+  Owner     = {jaeger,zirngibl,carle},
+  Project   = {tum, quic, 6g-futurelab, 6g-life, 6g-anna, slices-sc, slices-pp},
+  file      = {jaeger2023quic.pdf},
+  data   = {https://github.com/tumi8/quic-10g-paper},
+  abstract = {QUIC is a new protocol standardized in 2021 designed to improve on the widely used TCP/TLS stack. The main goal is to speed up web traffic via HTTP, but it is also used in other areas like tunneling. Based on UDP it offers features like
+reliable in-order delivery, flow and congestion control, stream-based multiplexing, and always-on encryption using TLS 1.3. Other than with TCP, QUIC implements all these features in user space, only requiring kernel interaction for UDP. While
+running in user space provides more flexibility, it profits less from efficiency and optimization within the kernel. Multiple implementations exist, differing in programming language, architecture, and design choices.
+This paper presents an extension to the QUIC Interop Runner, a framework for testing interoperability of QUIC implementations. Our contribution enables reproducible QUIC benchmarks on dedicated hardware. We provide baseline results on 10G links, including multiple implementations, evaluate how OS features like buffer sizes and NIC offloading impact QUIC performance, and show which data rates can be achieved with QUIC compared to TCP. Our results show that QUIC performance varies widely between client and server implementations from 90 Mbit/s to 4900 Mbit/s. We show that the OS generally sets the default buffer size too small, which should be increased by at least an order of magnitude based on our findings. Furthermore, QUIC benefits less from NIC offloading and AES NI hardware acceleration while both features improve the goodput of TCP to around 8000 Mbit/s. Our framework can be applied to evaluate the effects of future improvements to the protocol or the OS.}
+}
+
