@@ -118,6 +118,21 @@
   data = {https://doi.org/10.14459/2023mp1695491},
 }
 
+@inproceedings{steger2023targetacquired,
+  title = {{Target Acquired? Evaluating Target Generation Algorithms for IPv6}},
+  author = {Steger, Lion and Kuang, Liming and Zirngibl, Johannes and Carle, Georg and Gasser, Oliver},
+  booktitle = TMA,
+  file = {steger2023targetacquired.pdf},
+  year = {2023},
+  month = jun,
+  day={29},
+  abstract = {Internet measurements are a crucial foundation of IPv6-related research. Due to the infeasibility of full address space scans for IPv6 however, those measurements rely on collections of reliably responsive, unbiased addresses, as provided e.g., by the IPv6 Hitlist service. Although used for various use cases, the hitlist provides an unfiltered list of responsive addresses, the hosts behind which can come from a range of different networks and devices, such as web servers, customer-premises equipment (CPE) devices, and Internet infrastructure.
+In this paper, we demonstrate the importance of tailoring hitlists in accordance with the research goal in question. By using PeeringDB we classify hitlist addresses into six different network categories, uncovering that 42% of hitlist addresses are in ISP networks. Moreover, we show the different behavior of those addresses depending on their respective category, e.g., ISP addresses exhibiting a relatively low lifetime. Furthermore, we analyze different Target Generation Algorithms (TGAs), which are used to increase the coverage of IPv6 measurements by generating new responsive targets for scans. We evaluate their performance under various conditions and find generated addresses to show vastly differing responsiveness levels for different TGAs},
+  homepage = {https://ipv6hitlist.github.io/},
+  data = {https://doi.org/10.14459/2023mp1709953},
+  url = {https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final50.pdf}
+}
+
 @inproceedings{franzen2022lookingfohoney,
 	author = {Franzen, Fabian and Steger, Lion and Zirngibl, Johannes and Sattler, Patrick},
 	title = {{Looking for Honey Once Again: Detecting RDP and SMB Honeypots on the Internet}},
@@ -130,6 +145,18 @@
     abstract= {Honeypots are a widely used technique to observe the spread of malware and the emergence of new exploits. Attackers try to avoid connecting to honeypots as they reveal the attacker's methods, tools, and exploits. While different honeypot implementations have been fingerprinted in the past, we see a lack of studies covering Windows-related protocols such as Remote Desktop Protocol (RDP) and Server Message Block (SMB) honeypots. However, these protocols have seen at least two major security vulnerabilities in the past 5 years and are commonly exploited. We adapted existing fingerprinting algorithms to allow an accurate identification of RDP and SMB honeypots checking how implementations behave in error conditions. We present a new improvement, namely the inclusion of system TLS stack features previously not used for honeypot detection. We are the first to perform an internet-wide scan searching for RDP and SMB honeypots. We are able to effectively uncover the
             presence of two common open-source honeypots for RDP and SMB each. We identified 84 instances of Heralding (RDP), 1123 instances of RDPY (RDP), 60 instances of Impacket (SMB), and 1461 instances of Dionaea (SMB) during our scans. Furthermore, we found several hosts, which do not use Microsoft's SChannel TLS stack, but advertise themselves as Windows machines. This indicates the presence of a Man-in-the-Middle (MitM) box and could be a sign of a honeypot. Eventually, we analyzed how
             attackers interact with detectable honeypots. We deployed instances of RDP honeypots ourselves and found that credential guessing attackers seem to avoid them. This proves that RDP and SMB honeypots are finger-printable and that even MitM-box-based high-interaction honeypots leave detectable traces.},
+}
+
+@inproceedings{zirngibl2023svcb,
+  author = {Zirngibl, Johannes and Sattler, Patrick and Carle, Georg},
+  title = {{A First Look at SVCB and HTTPS DNS Resource Records in the Wild}},
+  booktitle = {International Workshop on Traffic Measurements for Cybersecurity 2023},
+  year = {2023},
+  month = {July},
+  day = {7},
+  file = {zirngibl2023svcb.pdf},
+  abstract={The Internet Engineering Task Force is standardizing new DNS resource records, namely SVCB and HTTPS. Both records inform clients about endpoint and service properties such as supported application layer protocols, IP address hints or Encrypted Client Hello (ECH) information. Therefore, they allow clients to reduce required DNS queries and potential retries during connection establishment and thus help to improve the quality of experience and privacy of the client. The latter is achieved by reducing visible meta-data, which is further improved with encrypted DNS and ECH. 
+      The standardization is in its final stages and companies announced support, e.g., Cloudflare and Apple. Therefore, we provide the first large-scale overview of actual record deployment by analyzing more than 400 M domains. We find 3.96 k SVCB and 10.5 M HTTPS records. As of March 2023, Cloudflare hosts and serves most domains, and most records only contain Application-Layer Protocol Negotiation (ALPN) and IP address hints. Besides Cloudflare, we see adoption by a variety of authoritative name servers and hosting providers indicating increased adoption in the near future. Lastly, we can verify the correctness of records for more than 93% of domains based on three application layer scans.},
 }
 
 @misc{muecke2022waitingforquic,

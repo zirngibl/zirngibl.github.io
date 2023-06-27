@@ -1,0 +1,11 @@
+---
+title: "A First Look at SVCB and HTTPS DNS Resource Records in the Wild"
+collection: publications
+permalink: /publication/2023-07-07-A-First-Look-at-SVCB-and-HTTPS-DNS-Resource-Records-in-the-Wild
+date: 2023-07-07
+venue: 'International Workshop on Traffic Measurements for Cybersecurity 2023'
+citation: '<b>Johannes Zirngibl</b>, Patrick Sattler, Georg Carle, &quot;A First Look at SVCB and HTTPS DNS Resource Records in the Wild.&quot; International Workshop on Traffic Measurements for Cybersecurity 2023, 2023.'
+authors: '<b>Johannes Zirngibl</b>, Patrick Sattler, Georg Carle'
+abstract: "The Internet Engineering Task Force is standardizing new DNS resource records, namely SVCB and HTTPS. Both records inform clients about endpoint and service properties such as supported application layer protocols, IP address hints or Encrypted Client Hello (ECH) information. Therefore, they allow clients to reduce required DNS queries and potential retries during connection establishment and thus help to improve the quality of experience and privacy of the client. The latter is achieved by reducing visible meta-data, which is further improved with encrypted DNS and ECH. The standardization is in its final stages and companies announced support, e.g., Cloudflare and Apple. Therefore, we provide the first large-scale overview of actual record deployment by analyzing more than 400 M domains. We find 3.96 k SVCB and 10.5 M HTTPS records. As of March 2023, Cloudflare hosts and serves most domains, and most records only contain Application-Layer Protocol Negotiation (ALPN) and IP address hints. Besides Cloudflare, we see adoption by a variety of authoritative name servers and hosting providers indicating increased adoption in the near future. Lastly, we can verify the correctness of records for more than 93% of domains based on three application layer scans."
+---
+[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/scholar?q=A+First+Look+at+SVCB+and+HTTPS+DNS+Resource+Records+in+the+Wild){: .btn--research-inverse} [<i class="fas fa-file-pdf"></i>](/files/zirngibl2023svcb.pdf){: .btn--research-inverse}

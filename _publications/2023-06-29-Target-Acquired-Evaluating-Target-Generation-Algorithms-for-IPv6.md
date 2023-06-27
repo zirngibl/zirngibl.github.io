@@ -1,0 +1,12 @@
+---
+title: "Target Acquired? Evaluating Target Generation Algorithms for IPv6"
+collection: publications
+permalink: /publication/2023-06-29-Target-Acquired-Evaluating-Target-Generation-Algorithms-for-IPv6
+date: 2023-06-29
+venue: 'Proc. Network Traffic Measurement and Analysis Conference (TMA)'
+paperurl: 'https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final50.pdf'
+citation: 'Lion Steger, Liming Kuang, <b>Johannes Zirngibl</b>, Georg Carle, Oliver Gasser, &quot;Target Acquired? Evaluating Target Generation Algorithms for IPv6.&quot; Proc. Network Traffic Measurement and Analysis Conference (TMA), 2023.'
+authors: 'Lion Steger, Liming Kuang, <b>Johannes Zirngibl</b>, Georg Carle, Oliver Gasser'
+abstract: "Internet measurements are a crucial foundation of IPv6-related research. Due to the infeasibility of full address space scans for IPv6 however, those measurements rely on collections of reliably responsive, unbiased addresses, as provided e.g., by the IPv6 Hitlist service. Although used for various use cases, the hitlist provides an unfiltered list of responsive addresses, the hosts behind which can come from a range of different networks and devices, such as web servers, customer-premises equipment (CPE) devices, and Internet infrastructure. In this paper, we demonstrate the importance of tailoring hitlists in accordance with the research goal in question. By using PeeringDB we classify hitlist addresses into six different network categories, uncovering that 42% of hitlist addresses are in ISP networks. Moreover, we show the different behavior of those addresses depending on their respective category, e.g., ISP addresses exhibiting a relatively low lifetime. Furthermore, we analyze different Target Generation Algorithms (TGAs), which are used to increase the coverage of IPv6 measurements by generating new responsive targets for scans. We evaluate their performance under various conditions and find generated addresses to show vastly differing responsiveness levels for different TGAs"
+---
+[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/scholar?q=Target+Acquired?+Evaluating+Target+Generation+Algorithms+for+IPv6){: .btn--research-inverse} [<i class="fas fa-file-pdf"></i>](/files/steger2023targetacquired.pdf){: .btn--research-inverse} [Link](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final50.pdf){: .btn--research} [Data](https://doi.org/10.14459/2023mp1709953){: .btn--research} [Homepage](https://ipv6hitlist.github.io/){: .btn--research}
