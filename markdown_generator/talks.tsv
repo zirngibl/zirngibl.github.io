@@ -1,3 +1,4 @@
 title,type,url_slug,venue,date,location,talk_url,description
 HEAP BGP Observatory,Workshop Talk,workshop-kismet,"Workshop on Active Internet Measurements: Knowledge of Internet Structure: Measurement, Epistemology, and Technology (AIMS-KISMET)",2020-02-26,"San Diego, CA",https://www.caida.org/workshops/kismet/2002/,"Introduction to the Hijacking Event Analysis Program (HEAP) developed and deployed at TUM. It detects potential BGP hijacking events and filters false positives based on different indicators."    
-Rusty Clusters?: Dusting an IPv6 Research Foundation,Conference Talk, conference-imc2022,"Internet Measurement Conference",2022-10-26,"Nice, France",https://dl.acm.org/doi/10.1145/3517745.3561440,
+Rusty Clusters?: Dusting an IPv6 Research Foundation,Conference Talk,conference-imc2022,"Internet Measurement Conference",2022-10-26,"Nice, France",https://dl.acm.org/doi/10.1145/3517745.3561440,
+IPv6 Hitlist: Dusting and Updates,IRTF Talk,ietf-118,"IETF 118: MAPRG meeting",2023-11-08,"Prague",https://wiki.ietf.org/group/maprg,

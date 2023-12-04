@@ -1,0 +1,13 @@
+@journal{sattler2023hrps,
+    author = {Sattler, Patrick and Zirngibl, Johannes and Jonker, Mattijs and Gasser, Oliver and Carle, Georg and   Holz, Ralph},
+    title = {{Packed to the Brim: Investigating the Impact of Highly Responsive Prefixes on Internet-Wide           Measurement Campaigns}},
+    year = {2023},
+    file = {sattler2023hrps.pdf},
+    url = {https://doi.org/10.1145/3629146},
+    doi = {10.1145/3629146},
+    abstract = {Internet-wide scans are an important tool to evaluate the deployment of services. To enable large-  scale application layer scans, a fast, stateless port scan (e.g., using ZMap) is often performed ahead of time to   collect responsive targets. It is a common expectation that port scans on the entire IPv4 address space provide a   relatively unbiased view as they cover the complete address space. Previous work, however, has found prefixes where all addresses share particular properties. In IPv6, aliased prefixes and fully responsive prefixes, i.e., prefixes  where all addresses are responsive, are a well-known phenomenon. However, there is no such in-depth analysis for    prefixes with these responsiveness patterns in IPv4.This paper delves into the underlying factors of this           phenomenon in the context of IPv4 and evaluates port scans on a total of 161 ports (142 TCP \& 19 UDP ports) from   three different vantage points. To account for packet loss and other scanning artifacts, we propose the notion of a new category of prefixes, which we call highly responsive prefixes (HRPs). Our findings show that the share of HRPs can make up 70\% of responsive addresses on selected ports. Regarding specific ports, we observe that CDNs          contribute to the largest fraction of HRPs on TCP/80 and TCP/443, while TCP proxies emerge as the primary cause of  HRPs on other ports. Our analysis also reveals that application layer handshakes to targets outside HRPs are,       depending on the chosen service, up to three times more likely to be successful compared to handshakes with targets located in HRPs. To improve future scanning campaigns conducted by the research community, we make our study's data publicly available and provide a tool for detecting HRPs. Furthermore, we propose an approach for a more efficient, ethical, and sustainable application layer target selection. We demonstrate that our approach has the potential to  reduce the number of TLS handshakes by up to 75\% during an Internet-wide scan while successfully obtaining 99 \%   of all unique certificates.},
+    journal = {Proc. ACM Netw.},
+    month = {nov},
+    day = {28},
+    homepage = {https://hrp-stats.github.io/},
+}

@@ -23,6 +23,14 @@ Work experience
 * 07/2016–10/2016: Working student at Rohde & Schwarz
 * 07/2019– : Research associate at Technical University of Munich
 
+Professional Activities
+======
+* PC member for [TAURIN 2023](https://taurin2023.responsible-internet.org/)
+* PC member for [PAM 2024](https://pam2024.cs.northwestern.edu/)
+* Reviewer for [TNSM](https://www.comsoc.org/publications/journals/ieee-tnsm)
+
+* Publicity chair for [TMA 2024](https://tma.ifip.org/2024/)
+
 Skills
 ======
 * Languages:
