@@ -11,3 +11,15 @@
     day = {28},
     homepage = {https://hrp-stats.github.io/},
 }
+
+@journal{sosnowski2024efactls,
+  author = {Sosnowski, Markus and Zirngibl, Johannes and Sattler, Patrick and Carle, Georg and Grohnfeldt, Claas and Russo, Michele and Sgandurra, Daniele},
+  journal = {{IEEE Transactions on Network and Service Management}},
+  title = {{EFACTLS: Effective Active TLS Fingerprinting for Large-scale Server Deployment Characterization}},
+  abstract = {Active measurements allow the collection of server characteristics on a large scale that can aid in discovering hidden relations and commonalities among server deployments. Finding these relations opens up new possibilities for clustering and classifying server deployments; for example, identifying a previously unknown cybercriminal infrastructure can be valuable cyber-threat intelligence. In this work, we propose a methodology based on  active measurements to acquire Transport Layer Security (TLS) metadata from servers and leverage it for fingerprinting. Our fingerprints capture characteristic behavior of the TLS stack, primarily influenced by the server’s         implementation, configuration, and hardware support. Using an empirical optimization strategy that maximizes information gained from every handshake to minimize measurement costs, we generated 10 general-purpose Client Hellos. They served as scanning probes to create an extensive database of TLS configurations to classify servers. We propose the Shannon Entropy to measure collected information and compare different approaches. This study fingerprinted 8       million servers from the Tranco top list and two Command and Control (C2) blocklists over 60 weeks with weekly snapshots. The resulting data formed the foundation for two long-term case studies: classification of Content Delivery   Network and C2 servers. Moreover, the detection was fine-grained enough to detect C2 server families. The proposed methodology demonstrated a precision of 99% and enabled a stable identification of new servers over time. This study shows how active measurements can provide valuable security-relevant insights and improve our understanding of the Internet.},
+  year={2024},
+  month = feb,
+  doi={10.1109/TNSM.2024.3364526},
+  Homepage = {https://tumi8.github.io/active-tls-fingerprinting/},
+  rawdata = {https://doi.org/10.14459/2024mp1733820},
+}

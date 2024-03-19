@@ -27,6 +27,9 @@ Professional Activities
 ======
 * PC member for [TAURIN 2023](https://taurin2023.responsible-internet.org/)
 * PC member for [PAM 2024](https://pam2024.cs.northwestern.edu/)
+* PC member for [ANRW 2024](https://www.irtf.org/anrw/2024/)
+* PC member for [IMC 2024](https://conferences.sigcomm.org/imc/2024/)
+
 * Reviewer for [TNSM](https://www.comsoc.org/publications/journals/ieee-tnsm)
 
 * Publicity chair for [TMA 2024](https://tma.ifip.org/2024/)
