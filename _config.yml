@@ -57,11 +57,11 @@ yandex_site_verification :
 author:
   name             : "Johannes Zirngibl"
   avatar           : "profile.png"
-  bio              : "PhD candidate and research associate at the Technical University of Munich"
+  bio              : "Researcher at the Max Planck Institute For Informatics"
     #  location         : "Location"
   employer         :
   googlescholar    : "https://scholar.google.de/citations?user=KHBbFcoAAAAJ&hl=de"
-  email            : "zirngibl[at]net.in.tum.de"
+  email            : "johannes.zirngibl[at]mpi-inf.mpg.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
