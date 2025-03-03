@@ -1,5 +1,5 @@
 ---
-title: "Advanced Computer Networking"
+title: "Advanced Computer Networking (TUM)"
 collection: teaching
 type: "Graduate course"
 venue: "Technical University of Munich, School of Computation, Information, and Technology"

@@ -1,5 +1,5 @@
 ---
-title: "Innovative Internet Technologies and Mobile Communications"
+title: "Innovative Internet Technologies and Mobile Communications (TUM)"
 collection: teaching
 type: "Seminar"
 venue: "Technical University of Munich, School of Computation, Information, and Technology"

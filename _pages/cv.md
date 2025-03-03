@@ -14,7 +14,7 @@ Education
 * B.S. in Informatics, Technical University of Munich, 2015
 * M.S. in Informatics, Technical University of Munich, 2019
 * Semester abroad at University of Illinois Urbana-Champaign, 2017
-* Ph.D in Informatics, Technical University of Munich, 2024 (expected)
+* Ph.D. in Informatics, Technical University of Munich, 2025
 
 Work experience
 ======
@@ -23,6 +23,7 @@ Work experience
 * 07/2016–10/2016: Working student at Rohde & Schwarz
 * 07/2019–06/2024: Research associate at Technical University of Munich
 * 10/2024-: Researcher at the Planck Institute For Informatics 
+
 Professional Activities
 ======
 * PC member for [TAURIN 2023](https://taurin2023.responsible-internet.org/)
