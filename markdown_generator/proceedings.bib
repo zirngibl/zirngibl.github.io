@@ -159,6 +159,31 @@ In this paper, we demonstrate the importance of tailoring hitlists in accordance
       The standardization is in its final stages and companies announced support, e.g., Cloudflare and Apple. Therefore, we provide the first large-scale overview of actual record deployment by analyzing more than 400 M domains. We find 3.96 k SVCB and 10.5 M HTTPS records. As of March 2023, Cloudflare hosts and serves most domains, and most records only contain Application-Layer Protocol Negotiation (ALPN) and IP address hints. Besides Cloudflare, we see adoption by a variety of authoritative name servers and hosting providers indicating increased adoption in the near future. Lastly, we can verify the correctness of records for more than 93% of domains based on three application layer scans.},
 }
 
+@inproceedings{bauer2023tcpoptionsquic,
+  title = {{Evaluating the Benefits: Quantifying the Effects of TCP Options, QUIC, and CDNs on Throughput}},
+  author = {Bauer, Simon and Sattler, Patrick and Zirngibl, Johannes and Schwarzenberg, Christoph and Carle, Georg},
+  booktitle = {Proceedings of the Applied Networking Research Workshop},
+  year = {2023},
+  month = jul,
+  day = 22,
+  file = {bauer2023anrw.pdf},
+  homepage = {https://github.com/tumi8/active-tcp-and-quic-measurements},
+  abstract = {To keep up with increasing demands on quality of experience, assessing and understanding the performance of network connections is crucial for web service providers. While different measures, like TCP options, alternative transport layer protocols like QUIC, or the hosting of services in CDNs, are expected to improve connection performance, no studies are quantifying such impacts on connections on the Internet.This paper introduces an active Internet measurement approach to assess the impacts of mentioned measures on connection performance. We conduct downloads from public web servers considering different vantage points, extract performance indicators like throughput, RTT, and retransmission rate, and survey speed-ups due to TCP option usage. Further, we compare the performance of QUIC-based downloads to TCP-based downloads considering different option configurations.Next to significant throughput improvements due to TCP option usage, in particular TCP window scaling, and QUIC, our study shows significantly increased performance for connections to domains hosted by different giant CDNs.},
+}
+
+@inproceedings{naab2023querythemall,
+  title = {{Gotta Query 'Em All, Again! Repeatable Name Resolution with Full Dependency Provenance}},
+  author = {Naab, Johannes and Sattler, Patrick and Zirngibl, Johannes and GÃ¼nther, Stephan and Carle, Georg},
+  booktitle = {Proceedings of the Applied Networking Research Workshop},
+  year = {2023},
+  month = jul,
+  day = 22,
+  file = {naab2023querythemall.pdf},
+  abstract = {Common DNS resolvers are optimized for query latency but are not designed to expose the internal dependencies and structures within the DNS. This makes it difficult to investigate DNS setups, detect errors and misconfigurations, and determine their impact on users.In order to reliably track the internal, potentially cyclic dependencies within the DNS, we propose to split the dependency graph into strongly connected components. By querying all authoritative servers and considering differences in order and timing for repeated runs, we are able to resolve domain names in a repeatable and traceable manner. We validate this approach by introducing a test methodology that allows re-running the resolver against previously recorded data. This data can be used to further study various aspects of global DNS deployments.},
+  homepage = {https://tcb-resolve.github.io/},
+
+}
+
 @misc{muecke2022waitingforquic,
 	url = {https://arxiv.org/abs/2209.00965},
 	author = {Mücke, Jonas and Nawrocki, Marcin and Hiesgen, Raphael and Sattler, Patrick and Zirngibl, Johannes and Carle, Georg and Schmidt, Thomas C. and Wählisch, Matthias},

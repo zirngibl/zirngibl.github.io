@@ -1,0 +1,11 @@
+---
+title: "Evaluating the Benefits: Quantifying the Effects of TCP Options, QUIC, and CDNs on Throughput"
+collection: publications
+permalink: /publication/2023-07-22-Evaluating-the-Benefits-Quantifying-the-Effects-of-TCP-Options-QUIC-and-CDNs-on-Throughput
+date: 2023-07-22
+venue: 'Proceedings of the Applied Networking Research Workshop'
+citation: 'Simon Bauer, Patrick Sattler, <b>Johannes Zirngibl</b>, Christoph Schwarzenberg, Georg Carle, &quot;Evaluating the Benefits: Quantifying the Effects of TCP Options, QUIC, and CDNs on Throughput.&quot; Proceedings of the Applied Networking Research Workshop, 2023.'
+authors: 'Simon Bauer, Patrick Sattler, <b>Johannes Zirngibl</b>, Christoph Schwarzenberg, Georg Carle'
+abstract: "To keep up with increasing demands on quality of experience, assessing and understanding the performance of network connections is crucial for web service providers. While different measures, like TCP options, alternative transport layer protocols like QUIC, or the hosting of services in CDNs, are expected to improve connection performance, no studies are quantifying such impacts on connections on the Internet.This paper introduces an active Internet measurement approach to assess the impacts of mentioned measures on connection performance. We conduct downloads from public web servers considering different vantage points, extract performance indicators like throughput, RTT, and retransmission rate, and survey speed-ups due to TCP option usage. Further, we compare the performance of QUIC-based downloads to TCP-based downloads considering different option configurations.Next to significant throughput improvements due to TCP option usage, in particular TCP window scaling, and QUIC, our study shows significantly increased performance for connections to domains hosted by different giant CDNs."
+---
+[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/scholar?q=Evaluating+the+Benefits:+Quantifying+the+Effects+of+TCP+Options,+QUIC,+and+CDNs+on+Throughput){: .btn--research-inverse} [<i class="fas fa-file-pdf"></i>](/files/bauer2023anrw.pdf){: .btn--research-inverse} [Homepage](https://github.com/tumi8/active-tcp-and-quic-measurements){: .btn--research}
