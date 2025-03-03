@@ -20,7 +20,8 @@ Recent News
 [All news](/news)
 
 <ul>
-{% for post in site.news reversed limit:5%}
+{% assign items = site.news | reverse %}
+{% for post in items limit:5%}
   {% include archive-single-news.html %}
 {% endfor %}
 </ul>
