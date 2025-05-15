@@ -1,0 +1,12 @@
+---
+title: "Lazy Eye Inspection: Capturing the State of Happy Eyeballs Implementations"
+collection: publications
+permalink: /publication/2025-10-01-Lazy-Eye-Inspection-Capturing-the-State-of-Happy-Eyeballs-Implementations
+important: "true"
+date: 2025-10-01
+venue: 'Proc. ACM Int. Measurement Conference (IMC)'
+citation: 'Patrick Sattler, Matthias Kirstein, Lars Wüstrich, <b>Johannes Zirngibl</b>, Georg Carle, &quot;Lazy Eye Inspection: Capturing the State of Happy Eyeballs Implementations.&quot; Proc. ACM Int. Measurement Conference (IMC), 2025.'
+authors: 'Patrick Sattler, Matthias Kirstein, Lars Wüstrich, <b>Johannes Zirngibl</b>, Georg Carle'
+abstract: "While transitioning to an IPv6-only communication, many devices settled on a dual-stack setup. IPv4 and IPv6 are available to these hosts for new connections. Happy Eyeballs (HE) describes a mechanism to prefer IPv6 for such hosts while ensuring a fast fallback to IPv4 when IPv6 fails. The IETF is currently working on the third version of HE. While the standards include recommendations for HE parameter choices, it is up to the client and OS to implement HE. In this paper, we investigate the state of HE in various clients, particularly web browsers and recursive resolvers. We introduce a framework to analyze and measure clients' HE implementations and parameter choices. According to our evaluation, only Safari supports all HE features. Safari is also the only client implementation in our study that uses a dynamic IPv4 connection attempt delay, a resolution delay, and interlaces addresses. We further show that problems with the DNS A record lookup can even delay and interrupt the network connectivity despite a fully functional IPv6 setup with Chrome and Firefox. We operate a publicly available website (www.happy-eyeballs.net) which measures the browser's HE behavior, and we publish our testbed measurement framework."
+---
+[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/scholar?q=Lazy+Eye+Inspection:+Capturing+the+State+of+Happy+Eyeballs+Implementations){: .btn--research-inverse} [<i class="fas fa-file-pdf"></i>](/files/sattler2025happyeyeballs.pdf){: .btn--research-inverse} [Homepage](https://www.happy-eyeballs.net/){: .btn--research}

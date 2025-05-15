@@ -147,6 +147,46 @@ In this paper, we demonstrate the importance of tailoring hitlists in accordance
             attackers interact with detectable honeypots. We deployed instances of RDP honeypots ourselves and found that credential guessing attackers seem to avoid them. This proves that RDP and SMB honeypots are finger-printable and that even MitM-box-based high-interaction honeypots leave detectable traces.},
 }
 
+@inproceedings{zirngibl2022prevalenceofparking,
+	author = {Zirngibl, Johannes and Deusch, Steffen and Sattler, Patrick and Aulbach, Juliane and Carle, Georg and Jonker, Mattijs},
+	title = {{Domain Parking: Largely Present, Rarely Considered!}},
+	booktitle = TMA,
+	year = {2022},
+    month = {June},
+    day = {27},
+    url = {https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper26.pdf},
+    file = {zirngibl2022prevalenceofparking.pdf},
+    abstract = {Domain parking typically involves leveraging advertisements to generate revenue on otherwise inactive domain names. Their content is rarely
+of real value to users and tends to be highly similar across parked domains. They have commonalities beyond content alone: parked domains can share hosting
+and DNS infrastructure. Parking rarely receives special treatment in existing studies (e.g., content analyses or infrastructure concentration studies). 
+While the presence and possible bias introduced by parked pages is sometimes acknowledged in studies, the studies still treat parked domains as any other,
+either because differentiation is infeasible, or because doing so is considered out-of-scope. We argue that the impact of parked domains on analyses
+regarding the current state and future development of the Internet should not be overlooked. In this paper, we motivate this argument through quantification,
+and take steps towards helping other researchers identify parked domains. We systematically collect a list of 82 parking services and develop DNS-based 
+indicators to help identify parked domains. We next quantify the presence of parked domains, using large-scale DNS data containing hundreds of millions of
+registered domain names, representative for a significant part of the global DNS namespace. Overall, we pinpoint 60 M parked domains, which is a significant
+percentage of all names under consideration (23 %) and identify up to 4 % of domains from top lists to be parked. These findings demonstrate that the effect
+of parked pages is potentially pronounced. We also break down into the various parking services and DNS zones. This helps us demonstrate and further discuss
+the effect that domain parking can have on research and Internet consolidation.}
+}
+
+@inproceedings{jaeger2023QUIC,
+  author    = {Benedikt Jaeger and Johannes Zirngibl and Marcel Kempf and Kevin Ploch and Georg Carle},
+  title     = {{QUIC on the Highway: Evaluating Performance on High-Rate Links}},
+  booktitle = {International Federation for Information Processing (IFIP) Networking 2023 Conference (IFIP Networking 2023)},
+  location   = {Barcelona, Spain},
+  month     = {June},
+  year      = {2023},
+  day       = {13},
+  Owner     = {jaeger,zirngibl,carle},
+  file      = {jaeger2023quic.pdf},
+  data   = {https://github.com/tumi8/quic-10g-paper},
+  abstract = {QUIC is a new protocol standardized in 2021 designed to improve on the widely used TCP/TLS stack. The main goal is to speed up web traffic via HTTP, but it is also used in other areas like tunneling. Based on UDP it offers features like
+reliable in-order delivery, flow and congestion control, stream-based multiplexing, and always-on encryption using TLS 1.3. Other than with TCP, QUIC implements all these features in user space, only requiring kernel interaction for UDP. While
+running in user space provides more flexibility, it profits less from efficiency and optimization within the kernel. Multiple implementations exist, differing in programming language, architecture, and design choices.
+This paper presents an extension to the QUIC Interop Runner, a framework for testing interoperability of QUIC implementations. Our contribution enables reproducible QUIC benchmarks on dedicated hardware. We provide baseline results on 10G links, including multiple implementations, evaluate how OS features like buffer sizes and NIC offloading impact QUIC performance, and show which data rates can be achieved with QUIC compared to TCP. Our results show that QUIC performance varies widely between client and server implementations from 90 Mbit/s to 4900 Mbit/s. We show that the OS generally sets the default buffer size too small, which should be increased by at least an order of magnitude based on our findings. Furthermore, QUIC benefits less from NIC offloading and AES NI hardware acceleration while both features improve the goodput of TCP to around 8000 Mbit/s. Our framework can be applied to evaluate the effects of future improvements to the protocol or the OS.}
+}
+
 @inproceedings{zirngibl2023svcb,
   author = {Zirngibl, Johannes and Sattler, Patrick and Carle, Georg},
   title = {{A First Look at SVCB and HTTPS DNS Resource Records in the Wild}},

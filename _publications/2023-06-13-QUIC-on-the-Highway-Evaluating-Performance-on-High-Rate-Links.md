@@ -2,7 +2,6 @@
 title: "QUIC on the Highway: Evaluating Performance on High-Rate Links"
 collection: publications
 permalink: /publication/2023-06-13-QUIC-on-the-Highway-Evaluating-Performance-on-High-Rate-Links
-important: "true"
 date: 2023-06-13
 venue: 'International Federation for Information Processing (IFIP) Networking 2023 Conference (IFIP Networking 2023)'
 citation: 'Benedikt Jaeger, <b>Johannes Zirngibl</b>, Marcel Kempf, Kevin Ploch, Georg Carle, &quot;QUIC on the Highway: Evaluating Performance on High-Rate Links.&quot; International Federation for Information Processing (IFIP) Networking 2023 Conference (IFIP Networking 2023), 2023.'

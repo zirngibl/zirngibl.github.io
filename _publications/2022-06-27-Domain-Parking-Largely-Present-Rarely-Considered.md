@@ -2,7 +2,6 @@
 title: "Domain Parking: Largely Present, Rarely Considered!"
 collection: publications
 permalink: /publication/2022-06-27-Domain-Parking-Largely-Present-Rarely-Considered
-important: "true"
 date: 2022-06-27
 venue: 'Proc. Network Traffic Measurement and Analysis Conference (TMA)'
 paperurl: 'https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper26.pdf'
