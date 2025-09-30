@@ -32,6 +32,8 @@ Professional Activities
     * [ANRW 2024](https://www.irtf.org/anrw/2024/)
     * [IMC 2024](https://conferences.sigcomm.org/imc/2024/)
     * [IMC 2025](https://conferences.sigcomm.org/imc/2025/)
+    * [PAM 2026](https://pam2026.at/)
+    * [IMC_2026](https://conferences.sigcomm.org/imc/2026/)
 * Invited Reviewer:
     * [TNSM](https://www.comsoc.org/publications/journals/ieee-tnsm)
 * Chair:
