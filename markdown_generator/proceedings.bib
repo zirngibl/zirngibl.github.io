@@ -241,4 +241,63 @@ balancer deployments such as number of servers per load balancer.
 We bolster our results by active measurements.},
 }
 
+@inproceedings{MisellIMC25,
+  title = {Measuring the Deployment of {DNSSEC} Bootstrapping Using Authenticated Signals},
+  author = {Misell, Q and Steurer, Florian and Zirngibl, Johannes and Feldmann, Anja and Fiebig, Tobias},
+  url = {https://doi.org/10.1145/3730567.3764501},
+  doi = {10.1145/3730567.3764501},
+  publisher = {ACM},
+  year = {2025},
+  month = {november},
+  day = {21},
+  booktitle = IMC,
+  file = {misell2025bootstrapping.pdf},
+  abstract = {The DNS, the Internet’s address book, traditionally does not guarantee authenticity of data. The DNS Security Extensions (DNSSEC)
+exist to add cryptographic authenticity checks to the DNS. In spite of DNSSEC being over 30 years old, its widespread deployment has
+not yet come to fruition. Current work in the IETF tries automating the setup of DNSSEC, in the hopes of furthering its deployment.
+In this paper, we analyze the current state of DNSSEC, where automated deployment may prove useful, and how DNS operators
+are deploying this new standard. We find that DNSSEC deployment remains lackluster. An increase to DNSSEC deployment could be
+achieved by the implementation of - optionally non-authenticated (RFC 8078) - automatic DNSSEC configuration by domain name
+registries and registrars. Only 3 DNS operators implement authenticated bootstrapping, but those that do generally implement this
+new standard well, with 99.9 % of their zones conforming.}
+}
 
+@inproceedings{sosnowski2024certificates,
+  author = {Sosnowski, Markus and Zirngibl, Johannes and Sattler, Patrick and Aulbach, Juliane and Lang, Jonas and Carle, Georg},
+  booktitle = {Proc. IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)},
+  title = {{An Internet-wide View on HTTPS Certificate Revocations: Observing the Revival of CRLs via Active TLS Scans}},
+  year = {2024},
+  month = jul,
+  day = {3},
+  doi = {10.1109/EuroSPW61312.2024.00038},
+  file = {sosnowski2024certificates.pdf},
+  abstract = {A global decentral Public Key Infrastructure
+(PKI) is a key element of trusted and secure communication over the Internet. Such a PKI enables trust inference
+through digital signatures. However, the irrevocable nature
+of signatures and the complexities involved in distributing
+revocation information pose significant challenges. Recent
+updates to the root store policies of Mozilla and Apple now
+mandate that each Certificate Authority (CA) must publish
+Certificate Revocation Lists (CRLs) on the Common CA
+Database (CCADB) as of October 2022. This policy shift
+enables new approaches for acquiring a comprehensive view
+of certificate revocations within the Transport Layer Security
+(TLS) ecosystem. This work investigates the impact of the
+new CRLs on certificate revocation research, whether they
+are sufficient to gain a comprehensive view, and how the
+current revocation methods compare. We conducted weekly
+Internet-wide TLS measurements to collect X.509 certificates
+over port 443 for two years starting in March 2022. These
+scans resulted in 1.1 billion valid leaf certificates, including
+4.5 million revoked certificates we identified using the Online
+Certificate Status Protocol (OCSP), CRLs, CCADB CRLs,
+and OCSP stapling. Our findings show that acquiring a
+comprehensive view of certificate revocations is challenging,
+primarily via the OCSP. Compared to the other methods,
+our analyses indicate that the CCADB CRLs provided the
+most complete view of global certificate revocations. They
+covered nearly the entirety of valid leaf certificates, found
+44% more revocations than alternative methods, and less
+than 0.3% of the revocations were exclusively visible via the
+OCSP or conventional CRLs.}
+}
