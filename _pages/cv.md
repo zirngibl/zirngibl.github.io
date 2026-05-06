@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D. in Informatics, Technical University of Munich, 2025
+    * Dissertation: ["Detecting and Evaluating QUIC Deployments as Part of the Internet Ecosystem"](https://mediatum.ub.tum.de/1743772)
 * M.S. in Informatics, Technical University of Munich, 2019
 * Semester abroad at University of Illinois Urbana-Champaign, 2017
 * B.S. in Informatics, Technical University of Munich, 2015
@@ -27,14 +28,23 @@ Work experience
 Professional Activities
 ======
 * PC member:
-    * [TAURIN 2023](https://taurin2023.responsible-internet.org/)
-    * PAM [2024](https://pam2024.cs.northwestern.edu/), [2026](https://pam2026.at/)
-    * [ANRW 2024](https://www.irtf.org/anrw/2024/)
     * IMC [2024](https://conferences.sigcomm.org/imc/2024/), [2025](https://conferences.sigcomm.org/imc/2025/) (Distinguished Reviewer), [2026](https://conferences.sigcomm.org/imc/2026/)
+    * PAM [2024](https://pam2024.cs.northwestern.edu/), [2026](https://pam2026.at/)
+    * TAURIN [2023](https://taurin2023.responsible-internet.org/)
+    * NetNeg [2026](https://conferences.sigcomm.org/sigcomm/2026/netneg/)
+    * ANRW [2024](https://www.irtf.org/anrw/2024/)
 * Invited Reviewer:
     * [TNSM](https://www.comsoc.org/publications/journals/ieee-tnsm)
 * Chair:
     * Publicity Chair at [TMA 2024](https://tma.ifip.org/2024/)
+
+Awards
+=====
+* [KuVS](https://kuvs.de/) Dissertation Award 2025
+* Best Paper Award for the work on Evaluating Target Generation Algorithms for IPv6, together
+with Lion Steger, Liming Kuang, Johannes Zirngibl, Georg Carle and Oliver Gasser (2023)
+* Best Paper Award for the work on Active TLS Stack Fingerprinting, together with Markus
+Sosnowski, Patrick Sattler, Georg Carle, Claas Grohnfeldt, Michele Russo and Daniele Sgandurra (2022)
 
 Publications
 ======
