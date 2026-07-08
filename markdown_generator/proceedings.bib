@@ -300,3 +300,65 @@ covered nearly the entirety of valid leaf certificates, found
 than 0.3% of the revocations were exclusively visible via the
 OCSP or conventional CRLs.}
 }
+
+@inproceedings{spaeth2026quicbypass,
+  author = {Späth, Johannes and Lachnit, Stefan and Kempf, Marcel and Holzinger, Kilian and Carle, Georg and Zirngibl, Johannes},
+  booktitle = {IEEE Network Operations and Management Symposium (NOMS)},
+  title = {{Kernel Bypass Surgery: A Viable Procedure for Maximizing QUIC Bandwidth?}},
+  year = {2026},
+  month = jun,
+  file = {spaeth2026quicbypass.pdf},
+  homepage = {https://github.com/tumi8/quic-bypass-paper},
+  abstract = {QUIC is a protocol that aims to solve many problems of the TCP/TLS stack. Previous work has shown that the performance of those implementations differs greatly in high-bandwidth scenarios. One major reason for this   is that QUIC is
+usually implemented in user space, building on the existing UDP functionality offered by the kernel network stack. While this
+design decision enables fast development cycles, it comes at the cost of a high number of context switches between kernel and user
+space. In this paper, we investigate the impact of kernel bypass on performance. We integrated the Data Plane Development Kit
+(DPDK) into three QUIC implementations, bypassing their use of the kernel networking stack, and updated a fourth stack
+that previous work combined with DPDK. We compare two deployment scenarios for our DPDK QUIC implementations:
+(1) running exclusively on the NIC port, and (2) sharing a port with the kernel using Single Root I/O Virtualization (SR-IOV).
+Our analysis shows that kernel bypass can greatly increase the goodput achieved with QUIC, with a speedup reaching up to a
+factor of 3× and goodput over 10 GBit/s. However, the reachable performance increase highly depends on the implementation, and
+in one case performance did also not further increase when using DPDK. Furthermore, we show that offloading techniques can
+reach similar performance if offered by the system and used correctly by the implementations.}
+}
+
+@inproceedings{cesar2026anycast,
+    author = {{Luvizotto Cesar}, Gustavo and Remi Hendriks and Martin Angelov and Mattijs Jonker and {van Rijswijk - Deij}, {Roland Martijn} and Johannes Zirngibl and Ralph Holz},
+    title = {{A First Look at Deployment Strategies of Services Provisioned using Anycast}},
+    booktitle = TMA,
+    year = {2026},
+    month = {July},
+    day = {01},
+    url = {https://tma.ifip.org/2026/wp-content/uploads/sites/15/2026/06/tma2026-final24.pdf},
+    file = {cesar2026anycast.pdf},
+    abstract = {IP anycast is a fundamental Internet technology
+where a prefix is made available in multiple locations to bring
+services closer to users and, most importantly, improve service
+resilience. Despite the growth in anycast—with censuses reporting
+1k  ASes and 14k /24-prefixes in 2026— little is known
+about how operators provision services using anycast. We address
+this gap by characterizing the deployment strategies used by
+anycast operators, based on the locations behind anycast prefixes
+and the topologies visible in routing data. We design a pipeline
+that measures 120 ports on TCP and UDP, and evaluates the use
+of QUIC and 32 different application-layer protocols to identify
+services replicated using anycast.
+We show large differences in deployment strategies: 77%
+of anycast Autonomous Systems (ASes) announce prefixes with
+a few IP addresses hosting services, whereas 7% fully utilize
+their prefixes, with five ASes alone accounting for more than
+88% of anycast IP addresses hosting services. We find 18% of
+ASes make use of the same Bring-Your-Own-Autonomous-System
+(BYOAS) infrastructure hosting provider, highlighting hidden
+dependencies not visible without topological analysis. Regional
+anycast is widespread, with 35% of operators replicating prefixes
+within a single continent, including 23 ASes with regional prefixes
+in multiple regions. While most anycast prefixes are used for web
+services (including deployments with significant QUIC adoption),
+they are largely originated by a few Content Delivery Network
+(CDN) ASes. Conversely, we find most ASes use anycast to
+replicate DNS using a few prefixes, highlighting distinct strategies
+between CDNs and DNS operators.}
+}
+
+

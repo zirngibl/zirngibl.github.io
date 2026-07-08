@@ -208,3 +208,21 @@ research in the area.},
   homepage = {https://www.happy-eyeballs.net/},
   abstract = {While transitioning to an IPv6-only communication, many devices settled on a dual-stack setup. IPv4 and IPv6 are available to these hosts for new connections. Happy Eyeballs (HE) describes a mechanism to prefer IPv6 for such hosts while ensuring a fast fallback to IPv4 when IPv6 fails. The IETF is currently working on the third version of HE. While the standards include recommendations for HE parameter choices, it is up to the client and OS to implement HE. In this paper, we investigate the state of HE in various clients, particularly web browsers and recursive resolvers. We introduce a framework to analyze and measure clients' HE implementations and parameter choices. According to our evaluation, only Safari supports all HE features. Safari is also the only client implementation in our study that uses a dynamic IPv4 connection attempt delay, a resolution delay, and interlaces addresses. We further show that problems with the DNS A record lookup can even delay and interrupt the network connectivity despite a fully functional IPv6 setup with Chrome and Firefox. We operate a publicly available website (www.happy-eyeballs.net) which measures the browser's HE behavior, and we publish our testbed measurement framework.}
 }
+
+@article{kappes2026ttlrewrites,
+    title = {{TTL Jumps: Unexpected TTL Rewrites Impacting Inferences from Traceroutes}},
+    author = {Kappes, Sebastian and Feldmann, Anja and Fiebig, Tobias and Zirngibl, Johannes},
+    booktitle = IMC,
+    doi = {10.1145/3777912.3809149},
+    year = {2026},
+    month = oct,
+    file = {kappes2026ttlrewrites.pdf},
+    abstract = {Traceroute is an important Internet measurement tool used to infer the Internet’s topology and to identify middleboxes. It relies on
+network devices decrementing the Time to Live (TTL) in IP packet headers by one at each hop and sending Internet Control Message
+Protocol (ICMP) Time Exceeded error messages if the TTL reaches zero. However, we show that TTL jumps exist on the Internet: some
+devices rewrite the TTL, often to larger value of up to 255. These rewrites hide the remaining path from traceroute and can lead
+to incorrect inferences like spurious router and Autonomous System (AS) links. Based on controlled experiments and public data
+from RIPE Atlas and CAIDA Ark, we show that at least 47 ASes are impacted by path-impairing devices that rewrite the TTL. A
+prominent example is AT&T where more than 90 % of outgoing IPv6 paths from CAIDA Ark nodes are affected since 2023.}
+}
+
