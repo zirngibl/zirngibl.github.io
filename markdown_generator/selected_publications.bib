@@ -226,3 +226,100 @@ from RIPE Atlas and CAIDA Ark, we show that at least 47 ASes are impacted by pat
 prominent example is AT&T where more than 90 % of outgoing IPv6 paths from CAIDA Ark nodes are affected since 2023.}
 }
 
+
+@article{kempf2026quic,
+    title = {{A QUIC Look Back: Longitudinal Internet-Scale Deployment and Transport Parameter Evolution}},
+    author = {Kempf, Marcel and Gauder, Nikolas and Späth, Johannes and Carle, Georg and Zirngibl, Johannes},
+    booktitle = IMC,
+    doi = {10.1145/3777912.3839803},
+    year = {2026},
+    month = oct,
+    file = {kempf2026quic.pdf},
+    abstract = {The Internet Engineering Task Force (IETF) specified QUIC in 2021,
+marking a significant shift in the Internet transport landscape. With
+its user-space implementation and flexible transport parameters,
+QUIC promised to enable rapid deployment of new extensions and
+features, fostering transport protocol innovation. While early stud-
+ies captured the initial surge of deployment, long-term evolution
+and maturation of the QUIC ecosystem remain largely unexplored.
+In this paper, we present a comprehensive longitudinal study of
+QUIC based on a five-year dataset of weekly Internet-wide scans
+from April 2021 to February 2026. We use fingerprinting to identify
+22 distinct libraries and track their market share over time. Fur-
+ther, we analyze the diversity and evolution of transport parameter
+configurations and the adoption of new extensions.
+Our analysis reveals a steady growth in QUIC adoption across
+both IPv4 and IPv6. Additionally, we show that while the ecosystem
+is changing, a significant “long tail” of outdated drafts and default
+configurations persists. This work provides the first multi-year
+overview of the QUIC landscape, offering insights into its volatility,
+the speed of protocol updates in user space, and the use of QUIC’s
+flexible transport parameters on the Internet.}
+}
+
+@article{steger2026punching,
+    title = {{Punching Bag: A Tool for Testing IPv6 Scans and Target Generation Algorithms}},
+    author = {Steger, Lion and Junginger, Christian and Carle, Georg and Zirngibl, Johannes},
+    booktitle = IMC,
+    doi = {10.1145/3777912.3839826},
+    year = {2026},
+    month = oct,
+    file = {steger2026punching.pdf},
+    homepage = {https://github.com/tumi8/punching-bag},
+    abstract = {Scanning the IPv6 address space exhaustively is infeasible. Besides
+hitlists with known active addresses, Target Generation Algorithms
+(TGAs) are a common tool for generating input for IPv6 measure-
+ments. They generate candidate addresses based on known respon-
+sive addresses using address patterns or machine learning. Some
+TGAs additionally use active scans during address generation as
+feedback mechanisms. However, the Internet is a changing ecosys-
+tem and scans can be impacted by network events, e.g., rate limits.
+These effects impact TGA results, a proper evaluation of their qual-
+ity and benefit, and the comparability of TGAs.
+We propose an IPv6 Punching Bag, a local environment to test
+IPv6 scans and TGAs before actually using them on the Internet.
+It allows configuring prefixes with different response rates, e.g.,
+aliased prefixes, or address patterns. It can be used on a single
+machine with a low memory footprint.
+We evaluate six dynamic TGAs with the Punching Bag and show
+that their adherence to scanning budgets and limits, and their inabil-
+ity to detect aliased prefixes necessitates local tests before Internet
+scans. We also demonstrate that 6Scan, a dynamic TGA, is not
+adapting to different response behavior.}
+}
+
+@article{binkle2026pmtu,
+    title = {{The Internet’s Path MTUs: How Big Can You Go?}},
+    author = {Binkle, Jonathan and Raghavajosyula, Vaishnavi and Heinrich, Tiago and Feldmann, Anja and Fiebig, Tobias and Zirngibl, Johannes},
+    booktitle = IMC,
+    doi = {10.1145/3777912.3839800},
+    year = {2026},
+    month = oct,
+    file = {binkle2026pmtu.pdf},
+    homepage = {https://doi.org/10.17617/3.OG3C1L},
+    abstract = {Efficient network transmission, especially in IPv6 since on-path
+fragmentation is not possible, depends on selecting the right packet
+size. The Maximum Transmission Unit (MTU) determines the largest
+packet size that can traverse a link and the Path MTU (PMTU) deter-
+mines the size for an end-to-end path without fragmentation. Due
+to frequent failures in Path MTU Discovery (PMTUD), protocols
+must fall back to conservative packet sizes to ensure reachability,
+sacrificing potential throughput. This creates a need for inference-
+based approaches that estimate a suitable path size. Existing PMTU
+studies are outdated, limited in scope, and rely on indirect MSS
+inference or PMTUD-dependent signals, offering little insight into
+where MTU bottlenecks occur along the path.
+This paper presents a measurement study of PMTUs using RIPE
+Atlas to characterize their behavior in general, across protocol lay-
+ers (IPv4/IPv6) and network locations thus covering 76,700 paths
+across access networks, the Internet core, and web-serving infras-
+tructure. We observe 97 distinct PMTUs, though a small set:[1500 B
+(80.5%), 1492 B (11.7%), and 1480 B (1.5%)], dominates. PMTU distri-
+butions differ across IP versions: while 99% of IPv4 paths support
+at least 1420 B, IPv6 paths commonly operate at 1280 B. We further
+show that sub-1500 B PMTUs are primarily located near network
+edges, while core paths rarely exhibit such constraints. Finally, we
+measure PMTU vs. Maximum Segment Size (MSS)-inferred PMTU
+mismatches in 18.5% of paths.}
+}
+

@@ -1,0 +1,12 @@
+---
+title: "The Internet’s Path MTUs: How Big Can You Go?"
+collection: publications
+permalink: /publication/2026-10-01-The-Internets-Path-MTUs-How-Big-Can-You-Go
+important: "true"
+date: 2026-10-01
+venue: 'Proc. ACM Int. Measurement Conference (IMC)'
+citation: 'Jonathan Binkle, Vaishnavi Raghavajosyula, Tiago Heinrich, Anja Feldmann, Tobias Fiebig, <b>Johannes Zirngibl</b>, &quot;The Internet’s Path MTUs: How Big Can You Go?.&quot; Proc. ACM Int. Measurement Conference (IMC), 2026.'
+authors: 'Jonathan Binkle, Vaishnavi Raghavajosyula, Tiago Heinrich, Anja Feldmann, Tobias Fiebig, <b>Johannes Zirngibl</b>'
+abstract: "Efficient network transmission, especially in IPv6 since on-path fragmentation is not possible, depends on selecting the right packet size. The Maximum Transmission Unit (MTU) determines the largest packet size that can traverse a link and the Path MTU (PMTU) deter- mines the size for an end-to-end path without fragmentation. Due to frequent failures in Path MTU Discovery (PMTUD), protocols must fall back to conservative packet sizes to ensure reachability, sacrificing potential throughput. This creates a need for inference- based approaches that estimate a suitable path size. Existing PMTU studies are outdated, limited in scope, and rely on indirect MSS inference or PMTUD-dependent signals, offering little insight into where MTU bottlenecks occur along the path. This paper presents a measurement study of PMTUs using RIPE Atlas to characterize their behavior in general, across protocol lay- ers (IPv4/IPv6) and network locations thus covering 76,700 paths across access networks, the Internet core, and web-serving infras- tructure. We observe 97 distinct PMTUs, though a small set:[1500 B (80.5%), 1492 B (11.7%), and 1480 B (1.5%)], dominates. PMTU distri- butions differ across IP versions: while 99% of IPv4 paths support at least 1420 B, IPv6 paths commonly operate at 1280 B. We further show that sub-1500 B PMTUs are primarily located near network edges, while core paths rarely exhibit such constraints. Finally, we measure PMTU vs. Maximum Segment Size (MSS)-inferred PMTU mismatches in 18.5% of paths."
+---
+[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/scholar?q=The+Internet’s+Path+MTUs:+How+Big+Can+You+Go?){: .btn--research-inverse} [Bib](/bibentries/binkle2026pmtu.bib){: .btn--research-inverse} [<i class="fas fa-file-pdf"></i>](/files/binkle2026pmtu.pdf){: .btn--research-inverse} [Homepage](https://doi.org/10.17617/3.OG3C1L){: .btn--research}
