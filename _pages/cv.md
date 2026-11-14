@@ -28,7 +28,7 @@ Work experience
 Professional Activities
 ======
 * PC member:
-    * IMC [2024](https://conferences.sigcomm.org/imc/2024/), [2025](https://conferences.sigcomm.org/imc/2025/) (Distinguished Reviewer), [2026](https://conferences.sigcomm.org/imc/2026/)
+    * IMC [2024](https://conferences.sigcomm.org/imc/2024/), [2025](https://conferences.sigcomm.org/imc/2025/) (Distinguished Reviewer), [2026](https://conferences.sigcomm.org/imc/2026/), [2027](https://conferences.sigcomm.org/imc/2027/)
     * IMC Poster [2026](https://imc2026-posters.hotcrp.com/u/0/users/pc)
     * PAM [2024](https://pam2024.cs.northwestern.edu/), [2026](https://pam2026.at/), [2027](https://pam2027.furg.br/)
     * TAURIN [2023](https://taurin2023.responsible-internet.org/)

@@ -1,0 +1,11 @@
+---
+title: "IPv6 Hitlist Service: Lessons Learned From 10 Years of Operation"
+collection: publications
+permalink: /publication/2026-10-01-IPv6-Hitlist-Service-Lessons-Learned-From-10-Years-of-Operation
+date: 2026-10-01
+venue: 'SIGCOMM Comput. Commun. Rev.'
+citation: 'Oliver Gasser, Lion Steger, Patrick Sattler, <b>Johannes Zirngibl</b>, &quot;IPv6 Hitlist Service: Lessons Learned From 10 Years of Operation.&quot; SIGCOMM Comput. Commun. Rev., 2026.'
+authors: 'Oliver Gasser, Lion Steger, Patrick Sattler, <b>Johannes Zirngibl</b>'
+abstract: "After becoming an Internet Draft more than 30 years ago, IPv6 has seen an increase in deployment and use in the past years. As measurements in the IPv6 Internet require new approaches due to the vastly larger address space, hitlists have come along as one possible source for finding IPv6 targets. One of the most prominent hitlists is provided by the IPv6 Hitlist Service.In this paper, we share insights from 10 years of operations of the IPv6 Hitlist Service: We show different evolutions of the service, highlighting important changes along the way. To better understand the representativeness of the hitlist, we perform a coverage analysis using real-world traffic data from a major central European ISP and Tier-1 network, finding that at least one address is known to the IPv6 Hitlist Service for 87.1 \% of ASes and 56.5 \% of /48 prefixes originating IPv6 traffic. We also share results from a conducted user survey and analyze users accessing the IPv6 Hitlist Service, finding diverse use cases and access patterns across time (e.g., one-off vs. continuous downloads) and available data (e.g., all vs. responsive addresses). Finally, we provide best practice recommendations when working with the hitlist and share lessons learned during its 10-year operation."
+---
+[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/scholar?q=IPv6+Hitlist+Service:+Lessons+Learned+From+10+Years+of+Operation){: .btn--research-inverse} [Bib](/bibentries/gasser202610years.bib){: .btn--research-inverse} [<i class="fas fa-file-pdf"></i>](/files/gasser202610years){: .btn--research-inverse} [Homepage](https://ipv6hitlist.github.io/){: .btn--research}
